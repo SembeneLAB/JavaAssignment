@@ -45,6 +45,14 @@ public class TryingMethods {
   }
   
   public static void secondstaticmethod() {
+    int number = 0;
+    for (x = 12; x < 103; x++)
+    {
+      if (x % 2 == 0){
+        number = number + 1;
+      }
+    }
+    System.out.println(number);
     
   }
   public void seconddynamicmethod(String personality) {
