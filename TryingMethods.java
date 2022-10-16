@@ -2,6 +2,13 @@ public class TryingMethods {
   /* This class try a method*/
 
   public static void main(String[] args) {
+    int x = 0;
+
+    while (x < 1000) {
+      x+= x;
+      x++;
+      System.out.println(x);
+    }
     
   }
   String firstdynamicmethod(Integer number) {
@@ -40,7 +47,19 @@ public class TryingMethods {
   public static void secondstaticmethod() {
     
   }
-  public void seconddynamicmethod() {
+  public void seconddynamicmethod(String personality) {
+
+    if (personality == "introvert"){
+      System.out.println("introvert");
+    }
+    else if (personality == "extrovert"){
+
+      System.out.println("extrovert");
+    }
+    else{
+      System.out.println("ambivert");
+    }
+
     
   }
 }
